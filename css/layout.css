@@ -170,7 +170,7 @@ ul#nav li a {
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
    display: inline-block;
-   padding: 8px 13px;
+   padding: 8px 25px;
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
@@ -330,85 +330,158 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
 .html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
-
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
+     width: 60%;
+     -moz-animation: html5 2s ease;
+     -webkit-animation: html5 2s ease;
 }
 @-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
 }
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+ @-webkit-keyframes html5 {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
 }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+.css {
+     width: 55%;
+     -moz-animation: css 2s ease;
+     -webkit-animation: css 2s ease;
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
+@-moz-keyframes css {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
+ }
+@-webkit-keyframes css {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
+}
+
+.wordpress {
+     width: 65%;
+     -moz-animation: wordpress 2s ease;
+     -webkit-animation: wordpress 2s ease;
+}
+@-moz-keyframes wordpress {
+   0%   { width: 0px;  }
+   100% { width: 65%;  }
 }
 @-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+   0%   { width: 0px;  }
+   100% { width: 65%;  }
 }
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
+
+.jquery {
+  	width: 45%;
+  	-moz-animation: jquerya 2s ease;
+  	-webkit-animation: jquerya 2s ease;
 }
-@-webkit-keyframes html5 {
+@-moz-keyframes jquerya {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 45%;  }
 }
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+@-webkit-keyframes jquerya {
+   0%   { width: 0px;  }
+   100% { width: 45%;  }
+}
+
+.ruby {
+   width: 50%;
+   -moz-animation: ruby 2s ease;
+   -webkit-animation: ruby 2s ease;
+}
+@-moz-keyframes ruby {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+}
+@-webkit-keyframes ruby {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+}
+
+.ruby-on-rails {
+   width: 50%;
+   -moz-animation: ruby-on-rails 2s ease;
+   -webkit-animation: ruby-on-rails 2s ease;
+}
+@-moz-keyframes ruby-on-rails {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+}
+@-webkit-keyframes ruby-on-rails {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+}
+
+.mysql {
+   width: 45%;
+   -moz-animation: mysql 2s ease;
+   -webkit-animation: mysql 2s ease;
+}
+@-moz-keyframes mysql {
+   0%   { width: 0px;  }
+   100% { width: 45%;  }
+}
+@-webkit-keyframes mysql {
+   0%   { width: 0px;  }
+   100% { width: 45%;  }
+}
+
+.aws {
+   width: 30%;
+   -moz-animation: aws 2s ease;
+   -webkit-animation: aws 2s ease;
+}
+@-moz-keyframes aws {
+   0%   { width: 0px;  }
+   100% { width: 30%;  }
+}
+@-webkit-keyframes aws {
+   0%   { width: 0px;  }
+   100% { width: 30%;  }
+}
+
+.recording-mixing {
+  	width: 75%;
+  	-moz-animation: recording-mixing 2s ease;
+  	-webkit-animation: recording-mixing 2s ease;
+}
+@-moz-keyframes recording-mixing {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+}
+@-webkit-keyframes recording-mixing {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+}
+
+.accounting {
+  	width: 85%;
+  	-moz-animation: accounting 2s ease;
+  	-webkit-animation: accounting 2s ease;
+}
+@-moz-keyframes accounting {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+}
+@-webkit-keyframes accounting {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+}
+
+.financial-planning {
+   width: 90%;
+   -moz-animation: financial-planning 2s ease;
+   -webkit-animation: financial-planning 2s ease;
+}
+@-moz-keyframes financial-planning {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+}
+@-webkit-keyframes financial-planning {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -874,6 +947,7 @@ call-to-action .button {
    display: inline-block;
 	border-radius: 3px;
    margin-left: 26%;
+   width: 65%;
 }
 #contact button.submit:hover {
 	color: #0D0D0D;
